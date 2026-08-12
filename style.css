@@ -1,0 +1,60 @@
+:root {
+    --sec-color: #ffff;
+
+    --prime-font: 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tivo-header{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: #5f4dee;
+}
+.tivo-navbar{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.tivo-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.nav-log{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+.nav-orderlist{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-left: auto;
+}
+.nav-orderlist li{
+    list-style: none;
+}
+.nav-orderlist a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+    color: var(--sec-color);
+}
+.nav-btn {
+    font-size: 15px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 40px;
+    width: 100px;
+    height: 35px;
+}
+.nav-link-btn{
+    text-decoration: none;
+    font-weight: 600;
+}
