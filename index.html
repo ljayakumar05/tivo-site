@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="tivo-header">
-        <div class="tivo-navbar">
+    <header class="tivo-header">
 
+        <!-- Navigation -->
+        <nav class="tivo-navbar">
+
+            <!-- Logo -->
             <a href="#" class="nav-logo-link">
-                <img src="images/logo.svg" class="nav-log" alt="logo">
-            </a>                    
+                <img src="images/logo.svg" 
+                class="nav-log" 
+                alt="logo">
+            </a>
+
+            <!-- Navigation Menu                     -->
                 <ul class="nav-orderlist">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Features</a></li>
@@ -20,9 +27,15 @@
                     <li><a href="#">Video</a></li>
                     <li><a href="#">Pricing</a></li>
                 </ul>
+
+                <!-- Login Button -->
                 <a href="#" class="nav-btn">Log In</a>
-        </div>
+            </nav>
+
+        <!-- Hero Section     -->
         <section class="header-section">
+
+            <!-- Left Content -->
             <div class="header-text">
                 <h1>Saas App HTML Landing Page</h1>
                 <p>Use Tivo to automate your marketing actions 
@@ -31,10 +44,66 @@
                     <a href="#" class="header-btnlink">Sign up</a>
                 </div>    
             </div>
+            <!-- Right image -->
             <div class="header-images">
-                <img src="images/header-software-app.png" class="brand-img" alt="tivo"> 
-            </div>    
+
+                <img src="images/header-software-app.png"
+                class="brand-img"
+                alt="tivo"> 
+            </div>              
         </section>
+
+         <!-- Bottom Wave -->
+         <div class="header-wave">
+            <svg
+                viewBox="0 0 1920 320"
+                preserveAspectRatio="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z"
+                    fill="#5f4dee"
+                ></path>
+            </svg>
+        </div>
+    </header>
+    <div class="company-logo">
+        <ul class="logo-list">
+            <li><a><img src="images/customer-logo-1.png" alt="#"></a></li>
+            <li><a><img src="images/customer-logo-2.png" alt="#"></a></li>
+            <li><a><img src="images/customer-logo-3.png" alt="#"></a></li>
+            <li><a><img src="images/customer-logo-4.png" alt="#"></a></li>
+        </ul>
     </div>
+
+    <!-- Marketing section grid -->
+
+    <div class="marketing-section">
+        <div class="marketing-title">
+            <a href="#">DESCRIPTION</a>
+            <h2>Marketing Automation Will Bring More Qualified Leads</h2>
+        </div>
+        <div class="marketing-gallery">
+            <div class="gallery-list">
+                <img src="images/description-1.png" alt="item1">
+                <h1>Lists Builder</h1>
+                <p>It's very easy to start creating email lists for your 
+                    marketing actions. Just create your Tivo account</p>
+            </div>
+            <div class="gallery-list">
+                <img src="images/description-2.png" alt="item1">
+                <h1>Campaign Tracker</h1>
+                <p>Campaigns is a feature we've developed since the beginning
+                     because it's at the core of Tivo's functionalities</p>
+            </div>
+            <div class="gallery-list">
+                <img src="images/description-3.png" alt="item1">
+                <h1>Analytics Tool</h1>
+                <p>Tivo collects customer data in order to help you analyse 
+                    different situations and take required action</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
