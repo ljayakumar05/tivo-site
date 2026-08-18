@@ -38,6 +38,10 @@ HEADER
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
+
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 3;
 }  
 
 /* Logo */
@@ -201,6 +205,8 @@ HERO IMAGE
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding-top: 30px;
 }
 
 .brand-img{
@@ -596,10 +602,68 @@ HERO IMAGE
     margin-left: -60px;
     margin-right: 10px;
 }
+.news-btn{
+    margin-top: 10px;
+    width: 600px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
 
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid #5f4dee;
+}
 
+/* footer section */
 
+.footer-section{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    color: var(--text-color);
+    font-family: var(--primary-font);
 
+    background-color: var(--primary-color);
+}
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    padding: 50px 80px;
+}
+.footer-about h2{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.footer-about p{
+    font-size: 19px;
+    padding-bottom: 15px;
+    width: 90%;
+    line-height: 1.8rem;
+}
+.footer-about ul li a{
+    font-size: 19px;
+    
+    width: 90%;
+    line-height: 1.8rem;
+}
+.footer-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-line{
+    border-bottom: 0.1rem solid var(--secondary-color);
+}
+.footer-end h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 5px;
+    margin-top: 10px;
+}
 
 
 
