@@ -1,6 +1,7 @@
 :root {
     --primary-color: #5f4dee;
     --secondary-color: #ffffff;
+    --background-back: #f3f7fd;
     --text-color: #ffff;
     --font-color: #333;
     --primary-font: "Open Sans", sans-serif;
@@ -218,11 +219,11 @@ HERO IMAGE
 }
 .logo-list{
     display: flex;
-    gap: 50px;
+    gap: 80px;
     text-align: center;
     justify-content: center;
 
-    margin: 20px 50px;
+    margin: 20px 20px;
     padding: 50px 0;
     list-style: none;
 }
@@ -290,9 +291,133 @@ HERO IMAGE
     color: var(--font-color);
     font-size: 18px;
     line-height: 1.8rem;
-
+    font-weight: 500;
     padding: 10px 20px;
 }
+.automation-section{
+    max-width: 1300px;
+    width: 100%;
+    margin: 20px auto;
+
+    background-color: var(--background-back);
+}
+.automation-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+    padding: 110px 50px;
+}
+.automation-header h3{
+    color: var(--primary-color);
+    font-size: 18px;
+}
+.automation-header h2{
+    font-size: 38px;
+    font-family: var(--primary-font);
+    color: var(--font-color);
+    font-weight: 700;
+}
+.automation-header p{
+    font-size: 22px;
+    font-family: var(--primary-font);
+    color: var(--font-color);
+    line-height: 1.8rem;
+    padding: 5px 60px;
+    font-weight: 100;
+
+    width: 82%;
+    margin: 0 auto;
+}
+.automation-list-menu{
+    max-width: 1200px;
+    width: 100%;
+    
+}
+.automation-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+
+    list-style: none;
+}
+.automation-link a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    text-decoration: none;
+
+    color: var(--primary-color);
+    border-bottom: 2px solid gray;
+}
+.automation-link a:hover{   
+    font-weight: 600;
+    font-family: var(--primary-font);
+    text-decoration: none;
+
+    color: var(--primary-color);
+    padding-bottom: 5px;
+    border-bottom: 4px solid #5f4dee;
+}
+.automation-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px 50px;
+}
+.marketing-image img{
+    flex: 1;
+    max-width: 500px;
+    height: 400px;
+    padding-top: 30px;
+
+}
+.marketing-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.marketing-text h1{
+    padding-top: 30px;
+    font-size: 30px;
+    color: var(--font-color);
+    font-weight: 600;
+}
+.marketing-text p{
+    padding-top: 25px;
+    font-size: 20px;
+    color: var(--font-color);
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.market-list{
+    padding-left: 20px;
+}
+.automating-btn{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #5f4dee;
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+
 
 
 
